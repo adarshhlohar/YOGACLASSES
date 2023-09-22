@@ -17,12 +17,24 @@ img{
 }
 
 .full-bg{
-    background-image: url("images/banner-bg.png");
+    background-image: url("images/newBanner.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
-    padding-bottom: 550px;
-    padding-top: 100px;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* padding-bottom: 550px;
+    padding-top: 100px; */
+}
+.full{
+    background-image: url("images/newImage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    /* padding-bottom: 550px;
+    padding-top: 100px; */
 }
 
 
@@ -32,6 +44,7 @@ img{
     font-size: 60px;
     color: #8b57fc;
     font-weight: 500;
+    margin-top: 150px;
 }
 
 .bodyText{
@@ -42,12 +55,30 @@ img{
     font-weight: 500;
 }
 
+.wrapper{
+    justify-content: center;
+    align-items: center;
+}
+
+/* .image1{
+    height: 130px;
+    width: 130px;
+} */
+
 .descText{
     width: 50%;
     float: left;
     font-size: large;
     margin-top: 20px;
     color: rgb(183, 81, 122);
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item{
+    padding-right: 20px;
 }
 
 .contactBtn{
@@ -80,7 +111,7 @@ img{
 }
 
 .ourClasses h1{
-    color: #00b3ff;
+    color: #8b57fc;
     font-size: 38px;
 }
 
@@ -104,7 +135,6 @@ footer{
 
 .ContactUs{
     padding-top: 20px;
-    margin-bottom: 20px
 }
 
 .mailText{
@@ -116,11 +146,11 @@ footer{
     border-bottom: 1px solid #fcfdfc;
     background-color: transparent !important;
     padding: 10px 30px 0px 0px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .sendMail{
-    margin-bottom:20px;
+    margin-bottom:10px;
     background-color: #ea15e2;
     color: #ffffff;
     padding: 10px 20px;
@@ -142,27 +172,36 @@ footer{
     margin: 0px;
 }
 .socialIcon li{
+    list-style-type: none;
     float: left;
-    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .map{
     width: 100%;
 }
+
+.call{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
 .callText{
-    padding-top: 20px;
     float: left;
-    margin-bottom: 10px;
-    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
 }
 
 .about{
-    background-image: url(images/about-bg.png);
-    background-size: 100%;
+    background-image: url(images/about.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 100px;
-    padding-bottom: 550px;
+
+    width: 100vw;
+    height: 95vh;
+    /* padding-top: 100px;
+    padding-bottom: 550px; */
 }
 
 .aboutMain{
@@ -172,7 +211,7 @@ footer{
     height: auto;
     padding: 60px 40px;
     border-radius: 100px;
-    margin-top: 80px;
+    margin-top: 40px;
     
     color: #ffffff;
 }
@@ -194,13 +233,14 @@ footer{
 }
 
 .aboutMainbtn{
-    width: 60%;
+    width: 100%;
     text-align: center; 
 }
 .aboutBtn{
-    width: 100%;
+    width: 60%;
     float: left;
     font-size: 25px;
+
     margin-top: 30px;
     background-color: #ea15e2;
 }
@@ -211,7 +251,8 @@ footer{
 .loginText{
     width: 100%;
     float: left;
-    font-size: 40px;
+    font-size: 70px;
+    font-weight: 700;
     color: #8b57fc;
     font-weight: 500;
 }
